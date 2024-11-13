@@ -13,7 +13,6 @@
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
-      "redhat.java"
       "vscjava.vscode-java-pack"
     ];
     workspace = {
