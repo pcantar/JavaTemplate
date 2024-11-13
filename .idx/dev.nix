@@ -18,7 +18,9 @@
     workspace = {
       # Runs when a workspace is first created with this `dev.nix` file
       onCreate = {
+        remote-git = "rm -fr .git";
         install = "mvn clean install";
+        default.openFiles = [ "src/main/java/com/example/demo/Main.java" ];
       };
     };
   };
